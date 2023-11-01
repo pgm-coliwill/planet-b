@@ -1,0 +1,360 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 87%);
+}
+
+/*--Header--*/
+
+header {
+  background-color: hsl(256, 15%, 28%);
+}
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo-container p {
+  color: white;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.logo-container span {
+  color: hsl(186, 96%, 43%);
+}
+
+.logo {
+  width: 4rem;
+}
+.links {
+  padding-inline-start: 0.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.links li {
+  list-style: none;
+  padding: 0.6rem 0;
+}
+
+.links-container a:hover {
+  color: hsl(186, 96%, 43%);
+}
+
+.links-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.take-action-button {
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid hsl(186, 96%, 43%);
+  border-radius: 5px;
+  max-width: 22.5rem;
+  margin-bottom: 1rem;
+  color: white;
+  background-color: hsl(256, 15%, 28%);
+  margin-right: 1.5rem;
+  padding: 0.5rem 5rem;
+}
+
+.take-action-button:hover {
+  background-color: hsl(186, 96%, 43%);
+}
+
+/*--header--*/
+
+/*--title-section--*/
+
+.title-section {
+  background-color: hsl(186, 96%, 43%);
+  overflow: hidden;
+}
+
+.title-section-container {
+  margin-left: 1.5rem;
+}
+
+.title-section img {
+  position: relative;
+  bottom: -5rem;
+  left: -15rem;
+  min-width: 600px;
+}
+
+.title-section p {
+  color: hsl(256, 15%, 28%);
+  margin-top: 6rem;
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+.title-section span {
+  font-weight: bold;
+  font-size: 3.9rem;
+}
+
+.what-we-know-section {
+  background-color: hsl(0, 0%, 87%);
+}
+
+.what-we-know {
+  color: hsl(256, 15%, 28%);
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  margin: 0 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.what-we-know h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.what-we-know-2 {
+  margin: 0 1.5rem;
+  padding-bottom: 6rem;
+}
+
+.what-we-know-2 h2 {
+  font-weight: 300;
+  border-bottom: 1px solid black;
+  display: inline;
+}
+
+.what-we-know-2 p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.quote-section {
+  background-color: hsl(11, 99%, 59%);
+}
+
+.quote-container {
+  margin: 0 1.5rem;
+}
+
+.quote-container h1 {
+  padding-top: 5rem;
+  color: white;
+}
+
+.stephen-hawking {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.stephen-hawking img {
+  border-radius: 50%;
+  width: 10rem;
+  border: 5px solid hsl(11, 99%, 59%);
+  box-shadow: 0 0 0 5px white;
+}
+
+.stephen-hawking p {
+  color: white;
+}
+
+.quote-box {
+  margin-top: 2rem;
+  position: relative;
+  background: white;
+  border-radius: 0.4em;
+}
+
+.quote-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5rem;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom-color: white;
+  border-top: 0;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.quote-box p {
+  padding: 1rem;
+}
+
+.blog-section {
+  background-color: hsl(0, 0%, 87%);
+}
+
+.blog-container {
+  margin: 0 1.5rem;
+}
+
+.blog-container h1 {
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+.time {
+  background-color: darkgray;
+  display: inline-flex;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.time p {
+  margin-bottom: 0;
+}
+.time img {
+  width: 1rem;
+}
+.read-more {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+  transition: 0.5s;
+}
+
+.read-more:hover {
+  gap: 1rem;
+}
+.read-more img {
+  width: 1rem;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: black;
+}
+
+.animal {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.new {
+  position: absolute;
+  color: white;
+  padding: 0.5rem 1rem;
+  background-color: hsl(11, 99%, 59%);
+  right: 1rem;
+  bottom: -1.5rem;
+}
+
+.new-card,
+.card {
+  margin-top: 1rem;
+  box-shadow: 0 0 7px;
+}
+
+.animal-info {
+  padding-left: 1rem;
+}
+
+.rotating-moon {
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 18rem;
+  background-color: hsl(0, 0%, 87%);
+  position: relative;
+}
+
+.melting-earth {
+  position: relative;
+  width: 4rem;
+}
+
+.moon {
+  width: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spinAround 10s linear infinite;
+}
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg) translate(5.625rem);
+  }
+  to {
+    transform: rotate(360deg) translate(5.625rem);
+  }
+}
+
+.atmosphere-container {
+  margin: 0 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.atmosphere-container h1 {
+  font-size: 2.5rem;
+  color: hsl(256, 15%, 28%);
+}
+
+.atmosphere-container p {
+  margin-top: 2rem;
+}
+
+/*--footer--*/
+
+footer {
+  background-color: hsl(256, 15%, 28%);
+  color: white;
+}
+
+.footer-container {
+  margin: 0 1.5rem;
+  padding-top: 2rem;
+}
+
+.footer-container h2,
+ul,
+p {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.footer-container a {
+  color: #ffffff;
+}
+
+.social-logo-container {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 3rem;
+}
+.social-logo-container img {
+  width: 2.3rem;
+  filter: invert(93%) sepia(93%) saturate(29%) hue-rotate(119deg)
+    brightness(107%) contrast(106%);
+}
+
+.end-note {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
